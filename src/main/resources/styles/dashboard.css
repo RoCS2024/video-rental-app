@@ -1,0 +1,40 @@
+.sidenav-button {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+    -fx-font-size: 12pt;
+    -fx-text-alignment: left;
+}
+
+.sidenav-button:hover {
+    -fx-border-color: blue;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid;
+    -fx-background-color: lightblue;
+}
+
+.table-view {
+    -fx-font-size: 12pt;
+}
+
+.item-id-column {
+    -fx-pref-width: 5em;
+    -fx-alignment: center;
+}
+.title-column {
+    -fx-pref-width: 30em;
+}
+
+.genre-column {
+    -fx-pref-width: 15em;
+}
+
+.copies-column {
+    -fx-pref-width: 5em;
+    -fx-alignment: center;
+}
+
+.item-action-column {
+    -fx-pref-width: 6.5em;
+    -fx-alignment: center;
+}
